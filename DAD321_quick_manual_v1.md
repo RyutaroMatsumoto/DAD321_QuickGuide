@@ -99,6 +99,7 @@ Note: It rotates 90 degrees(Counterclockwise), when it starts cutting.
 3) Booting Issue (2/18/2025) <br>
 &nbsp;Situation: Powers up but dosen't boot after power outage on last weekend <br>
 &nbsp;Solution: Call Giorgio Tech and send cpu, emsuram, both motor control pcbs<br>
+[DAD321 boards connection](https://github.com/RyutaroMatsumoto/DAD321_QuickGuide/blob/main/DAD_321_CARDS.pdf)
 ## 8. Reference 
 [UIC DAD321 Manual](https://github.com/RyutaroMatsumoto/DAD321_QuickGuide/blob/main/Disco-Model-DAD321-Dicing-Saw.pdf)
 
