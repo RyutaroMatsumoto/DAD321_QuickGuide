@@ -61,7 +61,9 @@ Note: It rotates 90 degrees(Counterclockwise), when it starts cutting.
 7) Set new blade, and update or create new blade data <br>
 &nbsp; -Blade Spec: Blade Name<br>
 &nbsp;- Blade type: Flange/Hub (select)<br>
+&nbsp;- Blade O.D: 58.0mm<br>
 &nbsp;- Hubbless type Flange O.D: 49.5mm<br>
+&nbsp;- Exposure: 4.25mm<br>
 8) Idle running for 10 min<br>
 &nbsp;- Spindle: ON<br>
 &nbsp;- Cut water: ON<br>
@@ -72,12 +74,13 @@ Note: It rotates 90 degrees(Counterclockwise), when it starts cutting.
 
 ## 5. Device data setting
 1) Press F4 -device data list
-2) Press F2 -copy an old one to start with
+2) Press F2 -copy an old one to start with, and davice number setup will pop up
 3) Press ENTER - input data<br>
 &nbsp; -CUT MODE: A(90 degrees)<br>
 &nbsp; -CUT Shape: RND/Square<br>
-&nbsp; -Work size: RND= Diameter<br>
+&nbsp; -Work size: RND= Diameter<br> 
 &nbsp; Y index: Cut pitch<br>
+&nbsp; -Work Thickness: 1mm<br>
 &nbsp; -Tape Thickness: 0.070mm<br>
 &nbsp; -Blade Height: 0.065mm(cut through the wafer)<br>
 &nbsp; -Feed Speed: 0.30mm/s<br>
@@ -94,13 +97,19 @@ Note: It rotates 90 degrees(Counterclockwise), when it starts cutting.
 1) Initialize system<br>
 &nbsp; Press SYS INIT<br>
 2) Sensor calibration<br>
+
+&nbsp;F5- Blade maintenance <br>
 &nbsp;F3- Setup functions <br>
 &nbsp;F4- Sensor caliblation setup<br>
 3) Booting Issue (2/18/2025) <br>
 &nbsp;Situation: Powers up but dosen't boot after power outage on last weekend <br>
 &nbsp;Solution: Call Giorgio Tech and send cpu, emsuram, both motor control pcbs<br>
 [DAD321 boards connection](https://github.com/RyutaroMatsumoto/DAD321_QuickGuide/blob/main/DAD_321_CARDS.pdf)
-
+4) Hard boot
+&nbsp;Press and Hold ENTER  <br>
+&nbsp;Turn the POWER ON<br>
+&nbsp;It will turn JP and screen will be different from main menu(sometimes fail to hard boot and boot normally, in that case turn it off and try again) <br>
+&nbsp;cancellation of everything and turn on No.1- No.1 <br>
 ## 8. Reference 
 [UIC DAD321 Manual](https://github.com/RyutaroMatsumoto/DAD321_QuickGuide/blob/main/Disco-Model-DAD321-Dicing-Saw.pdf)
 
